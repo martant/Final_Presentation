@@ -1,0 +1,92 @@
+
+body {background-color: white;
+}
+
+
+h3	{color: #4A6491;
+	font-family: Tahoma;
+	font-size: 30pt;}
+
+
+
+.main_slide { 	margin: 30px;
+				background-image: url('jump.gif');
+				box-shadow: inset 0 0 0 1000px rgba(19, 79, 124, .7);
+				background-repeat: no-repeat;
+				background-size: 100%;
+				position: relative;
+				height: 600px;
+					}
+
+	.main_slide h1 {color: white;
+	font-family: Tahoma;
+	font-size: 55px;
+	font-weight: bold;
+	padding-left: 25px;
+	padding-top: 20px;
+	text-shadow: 2px 2px black;
+	}
+ 
+	.main_slide p {color: white;
+	font-family: Tahoma;
+	font-size: 20pt;
+	padding-left: 25px;
+	font-weight: normal;
+	text-shadow: 2px 2px black
+	}
+
+.jump {background-color: rgba(226, 29, 29, 0.7);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+.landing {color: white;}
+.landing p {font-size: 0pt;}
+
+
+.slide {background-color: rgba(19, 79, 124, .1);
+		margin: 50px 30px 30px 30px;
+		}
+
+.slide h1 {
+	font-family: Verdana;
+	font-size: 15pt;
+	font-style: italic;
+	font-weight: normal;
+	padding: 25px 0 0 25px;
+	opacity: 0.4;}
+
+.slide h3 {padding-left: 25px;}
+
+
+.slide img {padding-top: 20px;}
+
+
+#slide_2 img {width: 95%;}
+
+#slide_8 img {width: 60%;
+				margin-bottom: 25px;}
+
+#slide_9 p {font-size: 200pt;
+			font-weight: bolder;
+			line-height: 200pt;}
+
+#thanks {color: transparent;}
+
+p {font-family: Verdana;
+	font-size: 15pt;
+	padding-left: 25px;
+	margin: 0;}
+
+img {padding-left: 25px;}
+
