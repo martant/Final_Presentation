@@ -2,14 +2,28 @@
 body {background-color: white;
 }
 
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
 
 h3	{color: #4A6491;
 	font-family: Tahoma;
-	font-size: 30pt;}
+	font-size: 40pt;
+	margin-bottom: 10px;
+	margin-top: 20px;}
 
 
 
-.main_slide { 	margin: 30px;
+.main_slide { 	margin: 25px 125px 50px 125px;
 				background-image: url('jump.gif');
 				box-shadow: inset 0 0 0 1000px rgba(19, 79, 124, .7);
 				background-repeat: no-repeat;
@@ -41,7 +55,7 @@ h3	{color: #4A6491;
     border-radius: 5px;
     margin-bottom: 25px;
     margin-left: 25px;
-    margin-top: 25px;
+    margin-top: 35px;
     display: inline-block;
     text-transform: uppercase;
     font-family: Arial, sans-serif;
@@ -55,24 +69,49 @@ h3	{color: #4A6491;
 
 
 .slide {background-color: rgba(19, 79, 124, .1);
-		margin: 50px 30px 30px 30px;
+		margin: 50px 125px 30px 125px;
 		}
 
 .slide h1 {
-	font-family: Verdana;
-	font-size: 15pt;
+	font-family: Georgia;
+	font-size: 18pt;
 	font-style: italic;
 	font-weight: normal;
-	padding: 25px 0 0 25px;
+	padding: 15px 0 0 25px;
 	opacity: 0.4;}
 
-.slide h3 {padding-left: 25px;}
+.slide h3 {padding-left: 25px;
+			padding-right: 20px;}
 
 
 .slide img {padding-top: 20px;}
 
 
-#slide_2 img {width: 95%;}
+#slide_2 img {width: 95%;
+				padding-bottom: 30px;}
+
+.bike {width: 50%;
+		padding-bottom: 20px}
+.bikefall {width: 40%;
+		  }
+.logo {width: 50%;
+		padding-bottom: 20px}
+
+.datasnap {width: 90%;}
+
+
+.charts img {width: 500px;
+				float: left;
+				padding-right: 12px;}
+
+.charttext {line-height: 24pt;
+				padding-top: 30px;}
+
+
+.struggle img {}
+
+
+#slide_6 img {width: 500px;}
 
 #slide_8 img {width: 60%;
 				margin-bottom: 25px;}
